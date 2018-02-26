@@ -5,7 +5,10 @@ const PictureListItem = ({ picture, onPictureSelect }) => {
   const imageUrl = picture.url;
 
   return (
-    <li onClick={() => onPictureSelect(picture)} className="list-group-item">
+    <li
+      onClick={() => onPictureSelect(picture)}
+      className="list-group-item align-middle"
+    >
       <div className="video-list media">
         <div className="media-left">
           <img className="media-object" src={imageUrl} />

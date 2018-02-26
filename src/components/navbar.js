@@ -30,7 +30,7 @@ class NavTest extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light expand="md">
+        <Navbar className="navbar-dark" color="faded" expand="md">
           <NavbarBrand href="https://github.com/mdrisk">Matt Risk</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
