@@ -7,13 +7,13 @@ const PictureListItem = ({ picture, onPictureSelect }) => {
   return (
     <li
       onClick={() => onPictureSelect(picture)}
-      className="list-group-item align-middle"
+      className="list-group-item col-md-3 col-xs-6 "
     >
-      <div className="video-list media">
-        <div className="media-left">
+      <div>
+        <div>
           <img className="media-object" src={imageUrl} />
         </div>
-        <div className="media-body">
+        <div>
           <div className="media-heading">{picture.title}</div>
         </div>
       </div>

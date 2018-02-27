@@ -13,7 +13,7 @@ const PictureList = props => {
     );
   });
 
-  return <ul className="col-md-4 list-group">{pictureItems}</ul>;
+  return <ul className="list-group-horizontal">{pictureItems}</ul>;
 };
 
 export default PictureList;

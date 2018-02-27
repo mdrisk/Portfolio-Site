@@ -9,7 +9,7 @@ const PictureDetail = ({ picture }) => {
   // const url = `https://www.youtube.com/embed/${videoId}`;
 
   return (
-    <div className="col-md-8 ">
+    <div className="col-md-12 padding-detail">
       <a target="_blank" href={picture.link}>
         <img className="img-fluid selector" src={picture.url} />
       </a>
