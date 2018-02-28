@@ -53,6 +53,8 @@
 
 .App-intro {
   font-size: large;
+  width: 60%;
+  margin-bottom: 60px;
 }
 
 .card {
