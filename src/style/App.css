@@ -4,8 +4,22 @@
   background-color: #fff;
 }
 
-.navbar-dark {
-  background-color: #000;
+.navbar-color {
+  background-color: rgba(227, 189, 119, 0.4);
+}
+.navbar-brand,
+.navbar-brand:hover {
+  color: #4c360f;
+  border-radius: 5px;
+}
+.nav-link,
+.nav-link:hover {
+  color: #4c360f;
+  border-radius: 5px;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  background-color: rgba(227, 189, 119, 0.6);
 }
 
 .App-header {
@@ -14,7 +28,7 @@
       rgba(105, 90, 63, 0.5),
       rgba(227, 189, 119, 0.7)
     ),
-    url("https://res.cloudinary.com/mdrisk/image/upload/v1519684217/drawn-map-lord-the-ring-7_xhabv3.jpg");
+    url('https://res.cloudinary.com/mdrisk/image/upload/v1519684217/drawn-map-lord-the-ring-7_xhabv3.jpg');
   background-size: cover;
   height: 90vh;
   padding: 20px;
@@ -34,7 +48,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Berkshire Swash", cursive;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .App-intro {
@@ -86,6 +100,10 @@ ul {
   padding: 0;
 }
 
+.card-li {
+  list-style-type: none;
+}
+
 .list-group-item {
   cursor: pointer;
 }
@@ -118,7 +136,9 @@ ul {
   padding: 50px 0px;
   background-color: rgba(227, 189, 119, 0.4);
 }
-
+.img-thumbnail {
+  background-color: transparent !important;
+}
 .about-me {
   color: #fff;
 }
@@ -129,7 +149,7 @@ ul {
       rgba(105, 90, 63, 0.8),
       rgba(227, 189, 119, 0.8)
     ),
-    url("https://res.cloudinary.com/mdrisk/image/upload/v1519684217/drawn-map-lord-the-ring-7_xhabv3.jpg");
+    url('https://res.cloudinary.com/mdrisk/image/upload/v1519684217/drawn-map-lord-the-ring-7_xhabv3.jpg');
   background-size: cover;
 }
 

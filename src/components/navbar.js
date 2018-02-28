@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Collapse,
   Navbar,
@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem
-} from "reactstrap";
+} from 'reactstrap';
 
 class NavTest extends React.Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class NavTest extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar-dark" color="faded" expand="md">
+        <Navbar className="navbar-color" color="faded" expand="md">
           <NavbarBrand href="https://github.com/mdrisk">Matt Risk</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
