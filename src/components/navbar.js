@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Collapse,
   Navbar,
@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem
-} from 'reactstrap';
+} from "reactstrap";
 
 class NavTest extends React.Component {
   constructor(props) {
@@ -32,14 +32,17 @@ class NavTest extends React.Component {
       <div>
         <Navbar className="navbar-color" color="faded" expand="md">
           <NavbarBrand href="https://github.com/mdrisk">Matt Risk</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler className="custom-toggler " onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">About Me</NavLink>
+                <NavLink href="#skills">Skills</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Projects</NavLink>
+                <NavLink href="#projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#about-me">About Me</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Contact</NavLink>

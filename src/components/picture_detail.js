@@ -11,7 +11,11 @@ const PictureDetail = ({ picture }) => {
   return (
     <div className="col-md-12 padding-detail">
       <a target="_blank" href={picture.link}>
-        <img className="img-fluid selector" src={picture.url} />
+        <img
+          className="img-fluid selector"
+          src={picture.url}
+          style={{ height: "500px" }}
+        />
       </a>
     </div>
   );
