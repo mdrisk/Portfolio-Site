@@ -28,7 +28,12 @@ class FlipCard extends Component {
                 style={{ borderRadius: "10px" }}
               />
               <div className="caption">
-                <h3>Python</h3>
+                <h3 className="caption">Python</h3>
+              </div>
+              <div className="d-flex justify-content-end card-icon">
+                <span>
+                  <i className="fa fa-refresh" aria-hidden="true" />
+                </span>
               </div>
             </div>
             <div ref="flipper">
@@ -44,6 +49,9 @@ class FlipCard extends Component {
                 My python usage has been academic. I am currently continuing my
                 Django studies on Udemy.
               </h5>
+              <span className="card-icon">
+                <i className="fa fa-refresh" aria-hidden="true" />
+              </span>
             </div>
           </FlexFlipCard>
         </li>
@@ -70,7 +78,12 @@ class FlipCard extends Component {
                 style={{ borderRadius: "10px" }}
               />
               <div className="caption">
-                <h3>Java</h3>
+                <h3 className="caption">Java</h3>
+              </div>
+              <div className="d-flex justify-content-end card-icon">
+                <span>
+                  <i className="fa fa-refresh" aria-hidden="true" />
+                </span>
               </div>
             </div>
             <div ref="flipper">
@@ -86,6 +99,9 @@ class FlipCard extends Component {
                 My Java usage has been academic in nature. I have guided
                 students in App creation in Android Studio.
               </h5>
+              <span className="card-icon">
+                <i className="fa fa-refresh" aria-hidden="true" />
+              </span>
             </div>
           </FlexFlipCard>
         </li>
@@ -112,11 +128,16 @@ class FlipCard extends Component {
                 style={{ borderRadius: "10px" }}
               />
               <div className="caption">
-                <h3>Front End</h3>
+                <h3 className="caption">Front End</h3>
+              </div>
+              <div className="d-flex justify-content-end card-icon">
+                <span>
+                  <i className="fa fa-refresh" aria-hidden="true" />
+                </span>
               </div>
             </div>
             <div ref="flipper">
-              <ul style={{ padding: "40px 10px 25px 10px" }}>
+              <ul style={{ padding: "30px 10px 15px 10px" }}>
                 <li>
                   <h5>- FreeCodeCamp Front End Course completed</h5>
                 </li>
@@ -124,10 +145,17 @@ class FlipCard extends Component {
                   <h5>- FE Dev tools in conjuction with Django</h5>
                 </li>
               </ul>
-              <h5 style={{ paddingLeft: "10px", paddingRight: "10px" }}>
+              <h5
+                style={{
+                  padding: "0px 15px"
+                }}
+              >
                 I have been immersing myself in the FE Dev frameworks React and
                 Angular.
               </h5>
+              <span className="card-icon">
+                <i className="fa fa-refresh" aria-hidden="true" />
+              </span>
             </div>
           </FlexFlipCard>
         </li>

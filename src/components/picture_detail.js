@@ -14,7 +14,7 @@ const PictureDetail = ({ picture }) => {
         <img
           className="img-fluid selector"
           src={picture.url}
-          style={{ height: "500px" }}
+          style={{ maxHeight: "400px" }}
         />
       </a>
     </div>

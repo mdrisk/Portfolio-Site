@@ -7,7 +7,7 @@ const PictureListItem = ({ picture, onPictureSelect }) => {
   return (
     <li
       onClick={() => onPictureSelect(picture)}
-      className="list-group-item col-md-3 col-xs-6 "
+      className="list-group-item col-xs-6 "
       style={{ backgroundColor: "#EED8AE" }}
     >
       <div>

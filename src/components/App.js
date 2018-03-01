@@ -8,12 +8,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Header from "./header.js";
 import PictureCombo from "./picture_combo";
 import FlipCard from "./flip_cards";
+import Contact from "./contact";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavTest />
         <Header />
         <div>
           <div className="mid-content">
@@ -25,9 +25,11 @@ class App extends Component {
           <PictureCombo id="projects" />
           <ImgCarousel id="about-me" />
         </div>
+        <Contact />
       </div>
     );
   }
 }
 
 export default App;
+// <NavTest />
