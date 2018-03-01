@@ -37,7 +37,7 @@ export default class ImgCarousel extends Component {
               </Carousel>
             </div>
             <div className="col-md-6 about-me-right-title">
-              <h1>About me!</h1>
+              <h1>About Matt Risk!</h1>
               <p className="about-me-right-body">
                 Hello and Welcome! Pull up a chair, a seat, a stool and gather
                 &#39;round as I weave my tale. Stories of adventure! From living
