@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import FlexFlipCard from "./flex_flipcard";
+import React, { Component } from 'react';
+import FlexFlipCard from './flex_flipcard';
 
 class FlipCard extends Component {
   render() {
@@ -10,14 +10,14 @@ class FlipCard extends Component {
             frontBackgroundColor="#FFFAF0"
             backBackgroundColor="#FFFAF0"
             frontContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
             backContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
           >
             <div ref="flipper">
@@ -25,7 +25,7 @@ class FlipCard extends Component {
                 className="img-thumbnail"
                 src="http://res.cloudinary.com/mdrisk/image/upload/v1519829825/compass_kpvb6r.png"
                 alt="Compass"
-                style={{ borderRadius: "10px" }}
+                style={{ borderRadius: '10px' }}
               />
               <div className="caption">
                 <h3 className="caption">Python</h3>
@@ -37,7 +37,7 @@ class FlipCard extends Component {
               </div>
             </div>
             <div ref="flipper">
-              <ul style={{ padding: "40px 10px 25px 10px" }}>
+              <ul style={{ padding: '40px 10px 25px 10px' }}>
                 <li>
                   <h5>- Taught Python in HS</h5>
                 </li>
@@ -45,7 +45,7 @@ class FlipCard extends Component {
                   <h5>- Taught Django in HS</h5>
                 </li>
               </ul>
-              <h5 style={{ paddingLeft: "10px", paddingRight: "10px" }}>
+              <h5 style={{ paddingLeft: '10px', paddingRight: '10px' }}>
                 My python usage has been academic. I am currently continuing my
                 Django studies on Udemy.
               </h5>
@@ -60,14 +60,14 @@ class FlipCard extends Component {
             frontBackgroundColor="#FFFAF0"
             backBackgroundColor="#FFFAF0"
             frontContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
             backContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
           >
             <div ref="flipper">
@@ -75,7 +75,7 @@ class FlipCard extends Component {
                 className="img-thumbnail"
                 src="http://res.cloudinary.com/mdrisk/image/upload/v1519831197/compass3_gpaux0.png"
                 alt="Compass2"
-                style={{ borderRadius: "10px" }}
+                style={{ borderRadius: '10px' }}
               />
               <div className="caption">
                 <h3 className="caption">Java</h3>
@@ -87,7 +87,7 @@ class FlipCard extends Component {
               </div>
             </div>
             <div ref="flipper">
-              <ul style={{ padding: "40px 10px 25px 10px" }}>
+              <ul style={{ padding: '40px 10px 25px 10px' }}>
                 <li>
                   <h5>- Taught Java in HS</h5>
                 </li>
@@ -95,7 +95,7 @@ class FlipCard extends Component {
                   <h5>- Taught Android Studio</h5>
                 </li>
               </ul>
-              <h5 style={{ paddingLeft: "10px", paddingRight: "10px" }}>
+              <h5 style={{ paddingLeft: '10px', paddingRight: '10px' }}>
                 My Java usage has been academic in nature. I have guided
                 students in App creation in Android Studio.
               </h5>
@@ -110,14 +110,14 @@ class FlipCard extends Component {
             frontBackgroundColor="#FFFAF0"
             backBackgroundColor="#FFFAF0"
             frontContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
             backContainerStyle={{
-              width: "250px",
-              height: "300px",
-              borderRadius: "10px"
+              width: '250px',
+              height: '300px',
+              borderRadius: '10px'
             }}
           >
             <div ref="flipper">
@@ -125,7 +125,7 @@ class FlipCard extends Component {
                 className="img-thumbnail"
                 src="http://res.cloudinary.com/mdrisk/image/upload/v1519831122/compass2_udazsf.png"
                 alt="Compass3"
-                style={{ borderRadius: "10px" }}
+                style={{ borderRadius: '10px' }}
               />
               <div className="caption">
                 <h3 className="caption">Front End</h3>
@@ -137,7 +137,7 @@ class FlipCard extends Component {
               </div>
             </div>
             <div ref="flipper">
-              <ul style={{ padding: "30px 10px 15px 10px" }}>
+              <ul style={{ padding: '30px 10px 15px 10px' }}>
                 <li>
                   <h5>- FreeCodeCamp Front End Course completed</h5>
                 </li>
@@ -147,7 +147,7 @@ class FlipCard extends Component {
               </ul>
               <h5
                 style={{
-                  padding: "0px 15px"
+                  padding: '0px 15px'
                 }}
               >
                 I have been immersing myself in the FE Dev frameworks React and
