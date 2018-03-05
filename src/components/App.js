@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import logo from "../logo.svg";
-import "../style/App.css";
+import React, { Component } from 'react';
+import logo from '../logo.svg';
+import '../style/App.css';
 
-import NavTest from "./navbar";
-import ImgCarousel from "./img_carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Header from "./header.js";
-import PictureCombo from "./picture_combo";
-import FlipCard from "./flip_cards";
-import Contact from "./contact";
+import NavTest from './navbar';
+import ImgCarousel from './img_carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Header from './header.js';
+import PictureCombo from './picture_combo';
+import FlipCard from './flip_cards';
+import Contact from './contact';
 
 class App extends Component {
   render() {
